@@ -97,3 +97,45 @@
 .register .container form .form-row .form-group {
   padding: 0 50px 20px;
 }
+.register .container form .form-row .form-group span {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+}
+.register .container form .form-row .form-group .form-check input[type=radio] {
+  appearance: none;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0;
+  border: 10px solid #d9d9d9;
+  background-color: #d9d9d9;
+  cursor: pointer;
+  margin: 0 10px 0 20px;
+  width: 30px;
+  height: 30px;
+}
+.register .container form .form-row .form-group .form-check input[type=radio]:checked {
+  background-color: #ae18e2;
+}
+.register .container form .form-row .form-group .form-check label {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+}
+.register .container form .form-row .form-group button {
+  color: #f6f6f6;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #ae18e2;
+  border: none;
+  padding: 10px 60px;
+}
+
+footer {
+  margin-top: 40px;
+  background-image: url(/img/image\ 8.png);
+  height: 242px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
