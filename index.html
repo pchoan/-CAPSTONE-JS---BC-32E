@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Home page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Css-->
+    <link rel="stylesheet" href="./publics/css/home_page.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="home_page">
+        <!-- Header -->
+        <div class="header">
+            <div class="img_logo col-1">
+                <img src="./publics/image/logo.png" width="100%" alt="">
+            </div>
+            <div class="login col-3">
+                <i class="fas fa-cart-plus"></i>
+                <p>Login</p>
+                <p>
+                    <a href="./register.html">Register</a>
+                </p>
+            </div>
+        </div>
+        <!-- Banner -->
+        <div class="banner">
+            <div class="menu">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li>Men</li>
+                    <li>Woman</li>
+                    <li>Kid</li>
+                    <li>Sport</li>
+                </ul>
+            </div>
+            <div class="slide">
+                <div class="bg_img">
+                    <img src="./publics/image/bg_banner.png" width="100%" alt="">
+                </div>
+                <div class="product_slide">
+                    <div class="img_products_slide">
+                        <img src="./publics/image/product_slide.png" alt="">
+                    </div>
+                    <div class="info_product_slide">
+                        <h4>Product name</h4>
+                        <p>Product description...</p>
+                        <button onclick="window.location.href='/detail.html?productid=${item.id}'">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- controller -->
+        <div class="article container">
+            <h5>- Product Feature -</h5>
+            <div class="app_home">
+
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="top_footer">
+                <div class="container">
+                    <div class="col-4">
+                        <h5>GET HELP</h5>
+                        <p>Contact us</p>
+                        <p>Shopping</p>
+                        <p>NIKEiD</p>
+                        <p>Nike+</p>
+                    </div>
+                    <div class="col-4">
+                        <h5>ORDERS</h5>
+                        <p>Payment oftions</p>
+                        <p>Shipping and delivery</p>
+                        <p>Returns</p>
+                    </div>
+                    <div class="col-4">
+                        <h5>REGISTER</h5>
+                        <p>Create one account to mannage everything you do width Nike, from your shopping preferences to your Nike+ activity.</p>
+                        <p><a href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="down_footer">
+                <div class="container">
+                    <div class="col-4">
+                        <h5>EMAIL SIGN UP</h5>
+                        <p>Be the firt to know about new products and special offers.</p>
+                        <p class="signup"><a href="#">Sign up now</a></p>
+                    </div>
+                    <div class="col-4">
+                        <h5>GIFT CARDS</h5>
+                        <p>Give the gift that always fits.</p>
+                        <p class="signup"><a href="#">View cards</a></p>
+                    </div>
+                    <div class="col-4">
+                        <h5>STORES NEAR YOU</h5>
+                        <p>Locate a Nike retail store or authorized retailer.</p>
+                        <p class="signup"><a href="#">Search</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./controllers/index.js"></script>
+</body>
+
+</html>
