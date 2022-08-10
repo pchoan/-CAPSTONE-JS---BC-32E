@@ -22,7 +22,7 @@ async function render() {
                                 </div>
                             </div>
                             <div class="buy_now">
-                                <button class="col-6 btn_buy">Buy Now</button>
+                                <button class="col-6 btn_buy"  onclick="window.location.href='/detail.html?productid=${item.id}'" >Buy Now</button>
                                 <button class="col-6 price">${item.price}$</button>
                             </div>
                         </div>
