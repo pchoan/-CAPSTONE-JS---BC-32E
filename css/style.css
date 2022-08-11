@@ -148,12 +148,11 @@
   border: none;
   padding: 10px 60px;
 }
-
 footer {
   margin-top: 40px;
   background-image: url(/img/image\ 8.png);
   height: 242px;
-  max-width: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
