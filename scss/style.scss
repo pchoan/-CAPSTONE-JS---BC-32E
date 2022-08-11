@@ -8,6 +8,7 @@ $bg-c-white: #f5f5f5;
 $c-main: #000000;
 $c-white: #f6f6f6;
 $c-primary: #ae18e2;
+$c-red: red;
 //fontsize
 $fs-xs: 16px;
 $fs-s: 20px;
@@ -114,6 +115,7 @@ $fw-bold: 700;
             border-radius: 0;
             padding: 0;
             outline: none;
+            position: relative;
             &:focus {
               box-shadow: none;
             }
@@ -121,13 +123,28 @@ $fw-bold: 700;
               @include txt($c-main, $fs-m, $fw-regular);
             }
           }
+          >span{
+            position: absolute;
+            right: 50px;
+            top: -20px;
+            @include txt($c-red, $fs-xs, $fw-regular);
+            // display: block;
+          }
+          p{
+            position: absolute;
+            right: 50px;
+            bottom: 10px;
+            @include txt($c-red, $fs-xs, $fw-regular);
+
+          }
         }
       }
       .form-row {
         .form-group {
           padding: 0 50px 20px;
-          span {
+          h1 {
             @include txt($c-main, $fs-m, $fw-regular);
+            display: inline-block;
           }
           .form-check {
             input[type="radio"] {
@@ -139,9 +156,8 @@ $fw-bold: 700;
               background-color: #d9d9d9;
               cursor: pointer;
               margin: 0 10px 0 20px;
-              width: 30px;
-              height: 30px;
-
+              width: 40px;
+              height: 40px;
               &:checked {
                 background-color: $c-primary;
               }
@@ -155,8 +171,6 @@ $fw-bold: 700;
         }
       }
       .form-row {
-        .form-group {
-        }
         .form-group {
           button {
             @include txt($c-white, $fs-s, $fw-regular);
@@ -174,6 +188,7 @@ footer{
   margin-top: 40px;
   background-image: url(/img/image\ 8.png);
   height: 242px;
+  max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
