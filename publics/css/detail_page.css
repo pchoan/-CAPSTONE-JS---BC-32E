@@ -53,9 +53,16 @@
     padding: 50px 0px;
 }
 
-.detail_page .article .app_home .container .detail_product {
-    display: flex;
-    justify-content: flex-start;
+.detail_page .article .app_home .product {
+    float: left;
+}
+
+.detail_page .article .app_home .container .detail_product .img_product {
+    float: left;
+}
+
+.detail_page .article .app_home .container .detail_product .info_product {
+    float: left;
 }
 
 .detail_page .article .app_home .container .detail_product .info_product .size {
@@ -107,9 +114,11 @@
 
 .detail_page .article .app_home .product {
     float: left;
+}
+
+.detail_page .article .app_home .product .container {
     background-color: #F8F8F8;
-    margin-top: 35px;
-    margin-right: 25px;
+    padding: 0px;
 }
 
 .detail_page .article .realate_products {
@@ -163,42 +172,53 @@
 
 /* Css footer */
 
+.detail_page .footer {
+    clear: left;
+}
+
 .detail_page .footer .top_footer {
-    background-color: #F8F8F8;
+    padding: 0px;
 }
 
 .detail_page .footer .top_footer .container {
-    display: flex;
-    justify-content: flex-start;
-    padding: 10px 0px;
-}
-
-.detail_page .footer .top_footer .container .col-4 {
     padding: 0px;
 }
 
-.detail_page .footer .top_footer .container .col-4 p {
-    margin: 5px 0px;
+.detail_page .footer .top_footer .container {
+    padding: 10px 0px;
 }
 
-.detail_page .footer .top_footer .container .col-4 a {
-    color: red;
+.detail_page .footer .top_footer .container .col-md-4 {
+    float: left;
 }
 
 .detail_page .footer .down_footer {
-    background-color: #DEDDDC;
+    clear: left;
 }
 
-.detail_page .footer .down_footer .container {
-    display: flex;
-    justify-content: flex-start;
-    padding: 10px 0px;
-}
-
-.detail_page .footer .down_footer .container .col-4 {
+.detail_page .footer .down_footer .container .col-md-4 {
+    float: left;
     padding: 0px;
 }
 
-.detail_page .footer .down_footer .container .col-4 .signup a {
+.detail_page .footer .down_footer .container .col-md-4 .signup a {
     color: red;
+}
+
+.detail_page .footer .top_footer .container .col-md-4 a {
+    color: red;
+}
+
+
+/* Banner mobile */
+
+@media screen and (max-width: 768px) {
+    .detail_page .article .realate_products {
+        display: block;
+    }
+    .detail_page .article .realate_products .product {
+        float: left;
+        margin: 0px;
+        margin-top: 10px;
+    }
 }
